@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File Browse and upload</title>
+</head>
+<body>
+<form action="http://www.example.com/upload.php"
+method="post">
+<p>upload any music,video ,mp3 or pdf's... </p>
+<input type="file" name="userss" /><br>
+<input type="submit" value="Upload" />
+</form>
+<form action="http://www.example.com/subscribe.php">
+<p>Subscribe to our email list:</p>
+<input type="text" name="email" />
+<input type="submit" name="subscribe" value="Subscribe" />
+</form>
+<form action="http://www.example.org/subscribe.php">
+<p>Subscribe to our email list:</p>
+<input type="text" name="email" />
+<input type="image" src="images/subscribe.jpg"
+width="100" height="20" />
+</form>
+<!--use of hidden attribute....image can be combined with text-->
+<form action="http://www.example.com/add.php">
+<button><img src="images/add.gif" alt="add"
+width="10" height="10" /> Add</button>
+<input type="hidden" name="bookmark"
+value="lyrics" />
+</form>
+</body>
+</html>
