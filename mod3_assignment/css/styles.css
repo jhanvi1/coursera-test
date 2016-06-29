@@ -16,6 +16,13 @@ body {
   text-decoration: none;
 }
 
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active, .navbar-default .navbar-brand:visited {
+	margin-bottom:10px;
+	font-size:2em;
+}
+
 div #name{
 	float:left;
 }
@@ -28,17 +35,14 @@ div #name{
 	font-size: 3.5vw;
 }
 #nav-list {
-  margin-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px
   border:0px;
-  margin:0px;
   margin-right: 0px;
   margin-left: 0px;
   
+  }
 
-}
-#nav-list li{
-	border:1px solid black;
-}
 #nav-list a {
   color: black;
   
@@ -54,6 +58,16 @@ div #name{
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+.navbar-nav {
+	margin:0px;
+}
+
+.navbar-default .navbar-nav>li>a:visited {
+	color:#fff;
+	text-align:center;
+	font-size: 1.1em;
+	padding:10px 0px 10px 10px;
 }
 #collapsable-nav{
 	padding-right: 15px;
@@ -143,10 +157,16 @@ p {
 
 }
 
-
+p>a{
+	color:red;
+}
+ 
 .row {
-  width: 100%;
+  margin:30px 10px 30px 10px;
   position: relative;
+}
+.text-center{
+	text-align: center;
 }
 
 @media (min-width: 992px) {
